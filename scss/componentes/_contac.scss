@@ -1,0 +1,257 @@
+@media only screen and (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #Contactanos{
+            .encanez{
+                padding-top: 10px;
+                h1{
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+            
+                }
+    
+            }
+            
+            .ContacForm1{
+                padding: 0px;       
+                font-family: 'Mingzat', sans-serif;
+                
+                p{
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
+                        margin-left: 5rem;
+                        margin-right: 5rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}   
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #Contactanos{
+            .encanez{
+                padding-top: 10px;
+                h1{
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+            
+                }
+    
+            }
+            
+            .ContacForm1{
+                padding: 0px;       
+                font-family: 'Mingzat', sans-serif;
+                
+                p{
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
+                        margin-left: 5rem;
+                        margin-right: 5rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+}    
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #Contactanos{
+            .encanez{
+                padding-top: 10px;
+                h1{
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+            
+                }
+    
+            }
+            
+            .ContacForm1{
+                padding: 0px;       
+                font-family: 'Mingzat', sans-serif;
+                
+                p{
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
+                        margin-left: 15rem;
+                        margin-right: 15rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #Contactanos{
+            .encanez{
+                padding-top: 10px;
+                h1{
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+            
+                }
+    
+            }
+            
+            .ContacForm1{
+                padding: 0px;       
+                font-family: 'Mingzat', sans-serif;
+                
+                p{
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                        margin-left: 35rem;
+                        margin-right: 35rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

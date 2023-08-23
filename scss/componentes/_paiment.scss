@@ -1,0 +1,124 @@
+@media only screen and (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #principalSectionPagos{
+            width: 100%;
+            padding: 10px;
+            .payment{
+                padding-bottom: 9.9px;
+    
+                h1{
+    
+                }
+            }
+            .imagePay{
+                width: 100%;
+                .imagepayP{
+                    width: 100%;
+                    padding-bottom: 10px;
+    
+                }
+            }
+            .descritionAboutPayment{
+                padding-bottom: 10px;
+                width: 100%;
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #principalSectionPagos{
+            padding: 10px;
+            .payment{
+                padding-bottom: 9.9px;
+    
+                h1{
+    
+                }
+            }
+            .imagePay{
+                text-align: center;
+                .imagePayP{
+                    width:50vw;
+                    padding-bottom: 10px;
+    
+                }
+            }
+            .descritionAboutPayment{
+                padding-bottom: 10px;
+            }
+        }
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #principalSectionPagos{
+            padding: 10px;
+            .payment{
+                padding-bottom: 9.9px;
+    
+                h1{
+    
+                }
+            }
+            .imagePay{
+                text-align: center;
+                .imagePayP{
+                    width: 50vw;
+                    padding-bottom: 10px;
+    
+                }
+            }
+            .descritionAboutPayment{
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #principalSectionPagos{
+            padding: 10px;
+            .payment{
+                padding-bottom: 9.9px;
+    
+                h1{
+    
+                }
+            }
+            .imagePay{
+                text-align: center;
+                .imagePayP{
+                    width: 50vw;
+                    align-items: center;
+                    padding-bottom: 10px;
+    
+                }
+            }
+            .descritionAboutPayment{
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

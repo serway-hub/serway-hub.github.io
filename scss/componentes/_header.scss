@@ -1,0 +1,1005 @@
+@import '../base/variables';
+
+@mixin headshippingcost {
+    background: linear-gradient(to right,blue,white);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;    
+}
+/* este es es header*/
+@media (max-width: 480px){    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
+            width: 100%;
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+                    background-clip: text;
+                    animation: color 3s linear infinite;
+                    background-size: 500%;
+                    font-size: 5vw;
+                }
+                @keyframes color {
+                    from {
+                        background-position: 0% 50%;
+                    }
+                    to {
+                        background-position: 100% 50%;
+                    }
+                }
+            }
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
+                    }
+                    .navToogle{
+                        background-color:white;
+                        position:absolute;
+                        top: 53px;
+                        width: 80vw;
+                        height: 80vw;
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
+                }
+    
+                
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: none;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        display: none;
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
+                            }
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
+                            }
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
+                        
+                            }
+    
+                            .iconC {
+                                display: none;
+            
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .searchB {
+                display: flex;
+                .navSearch {
+                    padding-left: 5px;
+                    padding-right: 10px;
+                    width: 100%;
+
+                    #searchPrincipalT {
+                        width: 100%;
+                        border-radius: 5px;
+                        border: 2px solid nth($list: $bordercolor, $n: 1);
+                        
+                    }
+
+                    .navSearchA {
+                        height: 44px;
+                    }
+                }
+
+                .navSearchB {
+                    .navSearchAB {
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 5px;
+                        background-color: #273fb4;
+                        border: 0px;
+
+                        img {
+                            filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                            font-size: 899px;
+                        }
+                    }
+                }
+                .navFull{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
+            width: 100%;
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+                    background-clip: text;
+                    animation: color 3s linear infinite;
+                    background-size: 500%;
+                    font-size: 5vw;
+                }
+                @keyframes color {
+                    from {
+                        background-position: 0% 50%;
+                    }
+                    to {
+                        background-position: 100% 50%;
+                    }
+                }
+            }
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
+                    }
+                    .navToogle{
+                        background-color:white;
+                        position:absolute;
+                        top: 53px;
+                        width: 80vw;
+                        height: 80vw;
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
+                }
+    
+                
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: none;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        display: none;
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
+                            }
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
+                            }
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
+                        
+                            }
+    
+                            .iconC {
+                                display: none;
+            
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .searchB {
+                display: flex;
+                .navSearch {
+                    padding-left: 5px;
+                    padding-right: 10px;
+                    width: 100%;
+
+                    #searchPrincipalT {
+                        width: 100%;
+                        border-radius: 5px;
+                        border: 2px solid nth($list: $bordercolor, $n: 1);
+                        
+                    }
+
+                    .navSearchA {
+                        height: 44px;
+                    }
+                }
+
+                .navSearchB {
+                    .navSearchAB {
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 5px;
+                        background-color: #273fb4;
+                        border: 0px;
+
+                        img {
+                            filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                            font-size: 899px;
+                        }
+                    }
+                }
+                .navFull{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+@media (min-width: 769px) and (max-width: 991px){    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
+            width: 100%;
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+                    background-clip: text;
+                    animation: color 3s linear infinite;
+                    background-size: 500%;
+                    font-size: 5vw;
+                }
+                @keyframes color {
+                    from {
+                        background-position: 0% 50%;
+                    }
+                    to {
+                        background-position: 100% 50%;
+                    }
+                }
+            }
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
+                    }
+                    .navToogle{
+                        background-color:white;
+                        position:absolute;
+                        top: 53px;
+                        width: 80vw;
+                        height: 80vw;
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
+                }
+    
+                
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: flex;
+                    width: 100%;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        width: 100%;
+                        
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
+                            }
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
+                            }
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
+                                
+                        
+                            }
+    
+                            .iconC {
+                                display: none;
+                                
+            
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .searchB {
+                display: none;
+                
+            }
+            .navFull{
+                display: none;
+
+            }
+        }
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1024px){    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
+            width: 100%;
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+                    background-clip: text;
+                    animation: color 3s linear infinite;
+                    background-size: 500%;
+                    font-size: 3vw;
+                }
+                @keyframes color {
+                    from {
+                        background-position: 0% 50%;
+                    }
+                    to {
+                        background-position: 100% 50%;
+                    }
+                }
+            }
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
+                    }
+                    .navToogle{
+                        background-color:white;
+                        
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
+                }
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: flex;
+                    width: 100%;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        width: 100%;
+                        
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
+                            }
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
+                            }
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
+                                
+                        
+                            }
+    
+                            .iconC {
+                                display: none;
+                                
+            
+                            }
+                        }
+                    }
+                }
+            }
+            .navFull{
+                background-color: white;
+                #navbarNav{
+                    justify-content: center;
+                    .navList{
+                        .nav-item{
+                            .nav-link{
+                                color: #7d7d7d;
+                            }
+                            .nav-link:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .searchB {
+                display: none;
+                
+            }
+        }
+    }
+
+}
+@media (min-width: 1025px){    
+    .homeCentral {
+        width: 100%;
+        .hommeHeader {
+            
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+                    background-clip: text;
+                    animation: color 3s linear infinite;
+                    background-size: 500%;
+                    font-size: 2vw;
+                }
+                @keyframes color {
+                    from {
+                        background-position: 0% 50%;
+                    }
+                    to {
+                        background-position: 100% 50%;
+                    }
+                }
+            }  
+            .menuHeader {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    display: none;
+                    .navSuperior{
+                        width: 100%;
+                    }
+                    .navToogle{
+                        background-color:white;
+                        
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
+                }
+                .logo {
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: flex;
+                    width: 50vw;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        width: 100%;
+                        
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
+                            }
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        gap: 10px;
+                        display: flex;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+                            gap: 20px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 4vw;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    font-family: 'mulish', sans-serif;
+                                    text-decoration: none;
+                                    font-size: 1vw;
+
+                                    
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
+                            }
+    
+                            .iconA {
+                                a{
+                                    gap: 10px;
+                                }
+                                
+                            }
+    
+                            .iconB {
+                                a{
+                                    
+                                    gap: 10px;
+                                }
+                                
+                                
+                                
+                        
+                            }
+    
+                            .iconC {
+                                a{
+                                    
+                                    gap: 10px;
+                                }
+                                
+                                
+            
+                            }
+                            .iconD {
+                                a{
+                                    
+                                    gap: 10px;
+                                }
+                                
+                                
+            
+                            }
+                        }
+                    }
+                }
+            }
+            .navFull{
+                background-color: white;
+                #navbarNav{
+                    justify-content: center;
+                    .navList{
+                        .nav-item{
+                            .nav-link{
+                                color: #7d7d7d;
+                            }
+                            .nav-link:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+            .searchB {
+                display: none;
+                
+            }
+        }
+    }
+
+}

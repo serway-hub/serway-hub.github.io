@@ -1,0 +1,233 @@
+@media only screen and (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #carritoCompras{
+            .tittleCart{
+                
+                h1{
+                    text-align: center;
+                    margin-bottom: 19.9px;
+        
+                }
+            }
+            .cartItems{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+                .tableItems{
+                    display: flex;
+                    justify-content: center;
+                    thead{
+                        display: none;
+                        tr{
+                            display: flex;
+                            flex-direction: column;
+                            .tableItemb{
+                                padding: 10px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            display: flex;
+                            flex-direction: column;
+                            .tableItemb{
+                                text-align: center;
+                                padding: 10px;
+                                .fotosCart{
+                                    width: 50vw;
+                                  
+                                }
+                            }
+        
+                        }
+                    }
+                }
+                .detalleOrden{
+                    margin: 16px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #carritoCompras{
+            .tittleCart{
+                
+                h1{
+                    text-align: center;
+                    margin-bottom: 19.9px;
+        
+                }
+            }
+            .cartItems{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+                .tableItems{
+             
+                    thead{
+                        
+                        tr{
+                          
+                            .tableItemb{
+                                padding: 10px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                          
+                            .tableItemb{
+                                text-align: center;
+                                padding: 10px;
+                                .fotosCart{
+                                    width: 20vw;
+                                  
+                                }
+                            }
+        
+                        }
+                    }
+                }
+                .detalleOrden{
+                    margin: 16px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #carritoCompras{
+            .tittleCart{
+                
+                h1{
+                    text-align: center;
+                    margin-bottom: 19.9px;
+        
+                }
+            }
+            .cartItems{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+                .tableItems{
+             
+                    thead{
+                        
+                        tr{
+                          
+                            .tableItemb{
+                                padding: 10px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                          
+                            .tableItemb{
+                                text-align: center;
+                                padding: 10px;
+                                .fotosCart{
+                                    width: 20vw;
+                                  
+                                }
+                            }
+        
+                        }
+                    }
+                }
+                .detalleOrden{
+                    display: flex;
+                    justify-content: center;
+                    margin: 16px;
+                    .detalleOrdenb{
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #carritoCompras{
+            .tittleCart{
+                
+                h1{
+                    text-align: center;
+                    margin-bottom: 19.9px;
+        
+                }
+            }
+            .cartItems{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                .tableItems{
+             
+                    thead{
+                        
+                        tr{
+                          
+                            .tableItemb{
+                                padding: 10px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                          
+                            .tableItemb{
+                                text-align: center;
+                                padding: 10px;
+                                .fotosCart{
+                                    width: 10vw;
+                                  
+                                }
+                            }
+        
+                        }
+                    }
+                }
+                .detalleOrden{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin: 16px;
+                    .detalleOrdenb{
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

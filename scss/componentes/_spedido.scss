@@ -1,0 +1,155 @@
+
+@media only screen and (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #seguimientopedido{
+            padding: 20px;
+            font-family: 'Mingzat', sans-serif;
+            .seguimientoB{
+                display: flex;
+                flex-direction: column;
+                
+                .SeguiTrack{
+                    display: flex;
+                    text-align: center;
+                }
+                .trackForm{
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .seguimientoPed1{
+                        .seguimientoPedT{
+                            color:white;
+                            background-color: #273fb4;
+                            width: 100%;
+                        }
+                        
+                    }
+                }
+        
+            }
+        }
+    }
+    
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #seguimientopedido{
+            padding: 20px;
+            font-family: 'Mingzat', sans-serif;
+            .seguimientoB{
+                display: flex;
+                flex-direction: column;
+                
+                .SeguiTrack{
+                    display: flex;
+                    text-align: center;
+                }
+                .trackForm{
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .seguimientoPed1{
+                        .seguimientoPedT{
+                            color:white;
+                            background-color: #273fb4;
+                            width: 50%;
+                        }
+                        
+                    }
+                }
+        
+            }
+        }
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #seguimientopedido{
+            padding: 20px;
+            font-family: 'Mingzat', sans-serif;
+            .seguimientoB{
+                display: flex;
+                flex-direction: column;
+                
+                .SeguiTrack{
+                    display: flex;
+                    text-align: center;
+                }
+                .trackForm{
+                    display: grid;
+                    gap: 10px;
+                   
+                    text-align: center;
+                    form{
+                        
+                    }
+                
+                    .seguimientoPed1{
+                        .seguimientoPedT{
+                            color:white;
+                            background-color: #273fb4;
+                            width: 50%;
+                        }
+                        
+                    }
+                }
+        
+            }
+        }
+    }
+}
+@media(min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #seguimientopedido{
+            padding: 20px;
+            font-family: 'Mingzat', sans-serif;
+            .seguimientoB{
+                display: flex;
+                flex-direction: column;
+                
+                .SeguiTrack{
+                    display: flex;
+                    text-align: center;
+                }
+                .trackForm{
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .seguimientoPed1{
+                       .seguimientoPedT{
+                        color:white;
+                        background-color: #273fb4;
+                        width: 30%;
+                       }
+                    
+                    }
+                }
+        
+            }
+        }
+    }
+}

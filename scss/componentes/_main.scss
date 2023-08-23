@@ -1,0 +1,1898 @@
+/* este es contenido central de la pagina principal*/
+@media only screen and (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer"; 
+        #principalSection{
+          
+            width: 100%;
+            .homePrincipal{
+                background-color: #ebebeb;
+                .tituloTienda{
+                    display: none;
+                }
+                .subHomePrincipal{
+                    .carrouselPrincipal{
+                        height: 150px;
+                        
+                        #carouselExampleCaptions{
+                            .carousel-inner{
+                                .carousel-item{
+                                    height: 150px;
+                                    .d-block{
+                                        height: 150px;
+                                        width: 97vw;
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                    .iconsHome{
+                        padding: 5px;
+                        margin-top: 10px;
+                        font-size: 10px;
+                        text-align: center;
+                        font-family: 'Mulish', sans-serif;
+                        background-color: #f9f9fa;
+                        border-radius: 20px;
+                        margin-left: 8px;
+                        margin-right: 8px;
+                        .sectionIcons{
+                            .sectionIconsB{
+                                display: grid;
+                                grid-template-columns: 3fr 3fr;
+                                grid-template-rows: 3fr 3fr;
+                                width: 100%;
+                                .sectionSubicons{
+                                    justify-content: center;
+                                    .boxIconsA{
+                                        padding: 0px;
+                                        size: 10px;
+                                        .iconsPict{
+                                            height: 30px;
+                                            width: 40px;
+                                        }
+                                    }
+                                    .boxIconsB{
+                                        padding: 0px;
+                                        border: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bannerOffered{
+                        width: 100%;
+                        .subBannerOffered{
+                            padding: 0px;
+                            margin-top: 10px;
+                            display: grid;
+                            justify-content: normal;
+                            .bannerImage{
+                                width: 100%;
+                                .imageBanner{
+                                    width: 100%;
+                                    height: 270px;
+                                }
+                                .parrBannerOffer{
+                                    position: relative;
+                                    bottom: 170px;
+                                    font-family: 'Mingzat', sans-serif;
+                                    font-weight: 600;
+                                    text-align: center;
+                                    background-color:
+                                    #e5e4e1;
+                                }
+                            }
+                        }
+                    }
+                    .offeredWeekend{     
+                        padding-bottom: 20px;           
+                        .ofertasSem{
+                            
+                            .ofertaImage{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .productosParaHombre{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 5vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 5vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasDia{
+                        display: grid;
+                        margin-bottom: 15px;
+                        .ofertasDiaA{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .ofertasDescrp{
+                            padding: 0px;
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            background-color: black;
+                            color: white;
+                            text-align: center;
+                            font-family: 'Mulish', sans-serif;
+                        }
+                    }
+                    .productosParaMujer{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 5vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 5vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .barnnerBackfriday{
+                        margin-bottom: 15px;
+                        .barnnerA{
+                            picture{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .productosParaninos{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 5vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 5vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .productosParahogar{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                    .prodHogarb{
+                                                
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 5vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 5vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasHogar{
+                        width: 100%;
+                      
+                        .tittleSecction{
+                            width: 100%;
+    
+                        }
+                        .oferdImage{
+                            width: 100%;
+                            display: flex;
+                            gap: 10px;
+                            flex-wrap: wrap;
+                            margin: 0px;
+                            text-align: center;
+                            .imagenOferta1{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 90vw;
+                                    }
+                                }    
+                            }
+                            .imagenOferta2{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 90vw;
+                                    }
+                                }    
+                            }
+                            .imagenOferta3{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 90vw;
+                                    }
+                                }    
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer"; 
+        #principalSection{
+          
+            width: 100%;
+            .homePrincipal{
+                background-color: #ebebeb;
+                .tituloTienda{
+                    display: none;
+                }
+                .subHomePrincipal{
+                    .carrouselPrincipal{
+                        height: 150px;
+                        
+                        #carouselExampleCaptions{
+                            .carousel-inner{
+                                .carousel-item{
+                                    height: 150px;
+                                    .d-block{
+                                        height: 150px;
+                                        width: 97vw;
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                    .iconsHome{
+                        padding: 5px;
+                        margin-top: 10px;
+                        font-size: 10px;
+                        text-align: center;
+                        font-family: 'Mulish', sans-serif;
+                        background-color: #f9f9fa;
+                        border-radius: 20px;
+                        margin-left: 8px;
+                        margin-right: 8px;
+                        .sectionIcons{
+                            .sectionIconsB{
+                                display: grid;
+                                grid-template-columns: 3fr 3fr;
+                                grid-template-rows: 3fr 3fr;
+                                width: 100%;
+                                .sectionSubicons{
+                                    justify-content: center;
+                                    .boxIconsA{
+                                        padding: 0px;
+                                        size: 10px;
+                                        .iconsPict{
+                                            height: 30px;
+                                            width: 40px;
+                                        }
+                                    }
+                                    .boxIconsB{
+                                        padding: 0px;
+                                        border: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bannerOffered{
+                        width: 100%;
+                        .subBannerOffered{
+                            padding: 0px;
+                            margin-top: 10px;
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            gap: 10px;
+                            justify-content: normal;
+                            .bannerImage{
+                                width: 100%;
+                                .imageBanner{
+                                    width: 100%;
+                                    height: 270px;
+                                }
+                                .parrBannerOffer{
+                                    position: relative;
+                                    bottom: 170px;
+                                    font-family: 'Mingzat', sans-serif;
+                                    font-weight: 600;
+                                    text-align: center;
+                                    background-color:
+                                    #e5e4e1;
+                                    font-size: 2vw;
+                                }
+                            }
+                        }
+                    }
+                    .offeredWeekend{     
+                        padding-bottom: 20px;           
+                        .ofertasSem{
+                            
+                            .ofertaImage{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .productosParaHombre{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasDia{
+                        display: grid;
+                        margin-bottom: 15px;
+                        grid-template-columns: 1fr 1fr;
+                        .ofertasDiaA{
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .ofertasDescrp{
+                            padding: 0px;
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            background-color: black;
+                            color: white;
+                            text-align: center;
+                            font-family: 'Mulish', sans-serif;
+                        }
+                    }
+                    .productosParaMujer{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .barnnerBackfriday{
+                        margin-bottom: 15px;
+                        .barnnerA{
+                            picture{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .productosParaninos{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .productosParahogar{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasHogar{
+                        width: 100%;
+                      
+                        .tittleSecction{
+                            width: 100%;
+    
+                        }
+                        .oferdImage{
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: nowrap;
+                            gap: 10px;
+                            margin: 0px;
+                            text-align: center;
+                            .imagenOferta1{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }
+                            .imagenOferta2{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }
+                            .imagenOferta3{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer"; 
+        #principalSection{
+            width: 100%;
+            .homePrincipal{
+                background-color: #ebebeb;
+                .tituloTienda{
+                    display: none;
+                }
+                .subHomePrincipal{
+                    .carrouselPrincipal{
+                        height: 150px;
+                        
+                        #carouselExampleCaptions{
+                            .carousel-inner{
+                                .carousel-item{
+                                    height: 150px;
+                                    .d-block{
+                                        height: 150px;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                    .iconsHome{
+                        padding: 5px;
+                        margin-top: 10px;
+                        font-size: 10px;
+                        text-align: center;
+                        font-family: 'Mulish', sans-serif;
+                        background-color: #f9f9fa;
+                        border-radius: 20px;
+                        margin-left: 8px;
+                        margin-right: 8px;
+                        .sectionIcons{
+                            .sectionIconsB{
+                                display: grid;
+                                grid-template-columns: 3fr 3fr 3fr 3fr;
+                                width: 100%;
+                                .sectionSubicons{
+                                    justify-content: center;
+                                    .boxIconsA{
+                                        padding: 0px;
+                                        size: 10px;
+                                        
+                                        .iconsPict{
+                                            height: 30px;
+                                            width: 40px;
+                                        }
+                                    }
+                                    .boxIconsB{
+                                        padding: 0px;
+                                        border: 0px;
+                                        font-size: 1rem;
+                                    }
+                                    .boxIconsBC{
+                                        font-size: 1rem;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bannerOffered{
+                        width: 100%;
+                        .subBannerOffered{
+                            padding: 0px;
+                            margin-top: 10px;
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            gap: 10px;
+                            justify-content: normal;
+                            .bannerImage{
+                                width: 100%;
+                                .imageBanner{
+                                    width: 100%;
+                                    height: 270px;
+                                }
+                                .parrBannerOffer{
+                                    position: relative;
+                                    bottom: 170px;
+                                    font-family: 'Mingzat', sans-serif;
+                                    font-weight: 600;
+                                    text-align: center;
+                                    background-color:
+                                    #e5e4e1;
+                                    font-size: 2vw;
+                                }
+                            }
+                        }
+                    }
+                    .offeredWeekend{     
+                        padding-bottom: 20px;           
+                        .ofertasSem{
+                            
+                            .ofertaImage{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .productosParaHombre{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasDia{
+                        display: grid;
+                        margin-bottom: 15px;
+                        grid-template-columns: 1fr 1fr;
+                        .ofertasDiaA{
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .ofertasDescrp{
+                            padding: 0px;
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            background-color: black;
+                            color: white;
+                            text-align: center;
+                            font-family: 'Mulish', sans-serif;
+                        }
+                    }
+                    .productosParaMujer{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .barnnerBackfriday{
+                        margin-bottom: 15px;
+                        .barnnerA{
+                            picture{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .productosParaninos{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .productosParahogar{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width:32.7vw;
+                                                        height: 100%;
+                                                          
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                        
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 40vh;
+                                                        font-size: 3vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 4vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                display: none;
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasHogar{
+                        width: 100%;
+                      
+                        .tittleSecction{
+                            width: 100%;
+    
+                        }
+                        .oferdImage{
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: nowrap;
+                            gap: 10px;
+                            margin: 0px;
+                            text-align: center;
+                            .imagenOferta1{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }
+                            .imagenOferta2{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }
+                            .imagenOferta3{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header",
+        "main",
+        "footer"; 
+        #principalSection{  
+            width: 100%;
+            .homePrincipal{
+                background-color: #ebebeb;
+                .tituloTienda{
+                    display: none;
+                }
+                .subHomePrincipal{
+                    .carrouselPrincipal{
+                        height: 350px;
+                        #carouselExampleCaptions{
+                            .carousel-inner{
+                                .carousel-item{
+                                    height: 350px;
+                                    .d-block{
+                                        height: 350px;
+                                        width: 100%;
+                                    }
+                                    .carousel-caption{
+                                        color: 
+                                        #808080;
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                    .iconsHome{
+                        padding: 5px;
+                        margin-top: 10px;
+                        font-size: 10px;
+                        text-align: center;
+                        font-family: 'Mulish', sans-serif;
+                        background-color: #f9f9fa;
+                        border-radius: 20px;
+                        margin-left: 8px;
+                        margin-right: 8px;
+                        .sectionIcons{
+                            .sectionIconsB{
+                                display: grid;
+                                grid-template-columns: 3fr 3fr 3fr 3fr;
+                                width: 100%;
+                                .sectionSubicons{
+                                    justify-content: center;
+                                    .boxIconsA{
+                                        padding: 0px;
+                                        size: 10px;
+                                        
+                                        .iconsPict{
+                                            width: 5vw;
+                                        }
+                                    }
+                                    .boxIconsB{
+                                        padding: 0px;
+                                        border: 0px;
+                                        font-size: 1rem;
+                                    }
+                                    .boxIconsBC{
+                                        font-size: 1rem;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bannerOffered{
+                        width: 100%;
+                        .subBannerOffered{
+                            padding: 0px;
+                            margin-top: 10px;
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            gap: 10px;
+                            justify-content: normal;
+                            .bannerImage{
+                                width: 100%;
+                                .imageBanner{
+                                    width: 100%;
+                                    height: 270px;
+                                }
+                                .parrBannerOffer{
+                                    position: relative;
+                                    bottom: 170px;
+                                    font-family: 'Mingzat', sans-serif;
+                                    font-weight: 600;
+                                    text-align: center;
+                                    background-color:
+                                    #e5e4e1;
+                                    font-size: 1.3vw;
+                                }
+                            }
+                        }
+                    }
+                    .offeredWeekend{     
+                        padding-bottom: 20px;           
+                        .ofertasSem{
+                            
+                            .ofertaImage{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .productosParaHombre{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 15vh;
+                                                        font-size: 1.7vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 2vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasDia{
+                        display: grid;
+                        margin-bottom: 15px;
+                        grid-template-columns: 1fr 1fr;
+                        .ofertasDiaA{
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .ofertasDescrp{
+                            padding: 0px;
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            background-color: black;
+                            color: white;
+                            text-align: center;
+                            font-family: 'Mulish', sans-serif;
+                            font-size: 3vw;
+                        }
+                    }
+                    .productosParaMujer{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 15vh;
+                                                        font-size: 1.7vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 2vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .barnnerBackfriday{
+                        margin-bottom: 15px;
+                        .barnnerA{
+                            picture{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .productosParaninos{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 100%;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    height: 100%;
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 15vh;
+                                                        font-size: 1.7vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 2vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                            
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .productosParahogar{
+                        padding: 0px;
+                        width: 100%; 
+                        margin-bottom: 20px;
+                        .tittleSecction{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }                   
+                        .productosParaHombreB{
+                            
+                            .imageHomeSection{
+                                display: none;                            
+                            }
+                            .sectionHombre{
+                                width: 100%;
+                                font-family: 'Nova Mono', monospace;
+                                
+                                .sectionCarrousel{
+                                    width: 100%;
+                                    .carrouselProductosHombre{
+                                        width: 100%;
+                                        .carrouselItems{
+                                            padding: 0px;
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                            width: 100%;
+                                            gap: 10px;
+                                            justify-items:center; 
+                                            .boxHomeProductos{
+                                                width: 100%; 
+                                                background-color:#f9f9fa;                                                                             
+                                                .carrouselImage{
+                                                    
+                                                    width: 100%;
+                                                    .imageHome{
+                                                        
+                                                        width: 24vw;
+                                                        height: 85.8vh;  
+                                                    }
+                                                }
+                                                .conteItem{
+                                                    padding: 10px;
+                                                    
+                                                    .titleProduct{
+                                                        font-family: 'Inter', sans-serif;
+                                                        padding-bottom: 10px;
+                                                        height: 15vh;
+                                                        font-size: 1.7vw;
+                                                    }
+                                                    .itemsPrice{
+                                                        .subItemPrice{
+                                                            font-weight: 500;
+                                                            font-size: 2vw;
+                                                            font-family: 'Mulish', sans-serif;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .prodFour{
+                                                
+                                            }
+                                            .prodFive{
+                                                display: none;    
+                                            }
+                                            .prodSix{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }      
+                    }
+                    .ofertasHogar{
+                        width: 100%;
+                      
+                        .tittleSecction{
+                            width: 100%;
+    
+                        }
+                        .oferdImage{
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: nowrap;
+                            gap: 10px;
+                            margin: 0px;
+                            text-align: center;
+                            .imagenOferta1{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }
+                            .imagenOferta2{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }
+                            .imagenOferta3{
+                                width: 100%;
+                                picture {
+                                    .imageOrder{
+                                        width: 100%;
+                                    }
+                                }    
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

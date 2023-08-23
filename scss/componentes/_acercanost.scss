@@ -1,0 +1,332 @@
+@media (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #aboutUs{
+            width: 100%;
+            font-size: 5vw;
+            .aboutUsc{
+                margin: 20px;
+                
+                .informationAboutUs{
+                    
+                    .whoAre{
+                        
+                        
+                        font-family: 'Mingzat', sans-serif;
+                        .whoAreA{
+                        
+                            .descriptionAboutUs{
+                            }
+                        }
+                        .whoAreB{
+                            -webkit-box-flex: 2;
+                            text-align: justify;
+                            
+                            column-fill: balance;
+                            
+                        }
+                    }
+                }
+                .whereAre{
+                    .ubicationAre{
+                        justify-content: space-evenly;
+                        font-family: 'Mingzat', sans-serif;
+                        .OurUbication{
+                            .UbicationA{
+                                font-size: 2.813rem;
+                                color: #343434;
+                                line-height: 3rem;
+                                font-weight: 300px;
+                                font-family: 'Mingzat', sans-serif;
+                            }
+                        }
+                        .OurUbicationNac{
+                            background: #9546b1;
+                            max-width: 450px;
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 1.5rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationB{
+        
+                            }
+                        }
+                        .OurUbicationInt{
+                            background: #2dbcb6;
+                            max-width: 450px;
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 1.5rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationD{
+        
+                            }
+                            .UbicationE{
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+    }
+} 
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #aboutUs{
+            width: 100%;
+            font-size: 5vw;
+            .aboutUsc{
+                margin: 20px;
+                
+                .informationAboutUs{
+                    
+                    .whoAre{
+                        
+                        
+                        font-family: 'Mingzat', sans-serif;
+                        .whoAreA{
+                        
+                            .descriptionAboutUs{
+                            }
+                        }
+                        .whoAreB{
+                            -webkit-box-flex: 2;
+                            text-align: justify;
+                            
+                            column-fill: balance;
+                            
+                        }
+                    }
+                }
+                .whereAre{
+                    .ubicationAre{
+                        justify-content: space-evenly;
+                        font-family: 'Mingzat', sans-serif;
+                        .OurUbication{
+                            .UbicationA{
+                                font-size: 2.813rem;
+                                color: #343434;
+                                line-height: 3rem;
+                                font-weight: 300px;
+                                font-family: 'Mingzat', sans-serif;
+                            }
+                        }
+                        .OurUbicationNac{
+                            background: #9546b1;
+                            
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 1.5rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationB{
+        
+                            }
+                        }
+                        .OurUbicationInt{
+                            background: #2dbcb6;
+                        
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 1.5rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationD{
+        
+                            }
+                            .UbicationE{
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+    } 
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #aboutUs{
+            width: 100%;
+            font-size: 2vw;
+            .aboutUsc{
+                margin: 20px;
+                
+                .informationAboutUs{
+                    
+                    .whoAre{
+                        
+                        
+                        font-family: 'Mingzat', sans-serif;
+                        .whoAreA{
+                        
+                            .descriptionAboutUs{
+                            }
+                        }
+                        .whoAreB{
+                            -webkit-box-flex: 2;
+                            text-align: justify;
+                            
+                            column-fill: balance;
+                            
+                        }
+                    }
+                }
+                .whereAre{
+                    .ubicationAre{
+                        justify-content: space-evenly;
+                        font-family: 'Mingzat', sans-serif;
+                        .OurUbication{
+                            .UbicationA{
+                                font-size: 2.813rem;
+                                color: #343434;
+                                line-height: 3rem;
+                                font-weight: 300px;
+                                font-family: 'Mingzat', sans-serif;
+                            }
+                        }
+                        .OurUbicationNac{
+                            background: #9546b1;
+                            
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 2.3rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationB{
+        
+                            }
+                        }
+                        .OurUbicationInt{
+                            background: #2dbcb6;
+                        
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 2.3rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationD{
+        
+                            }
+                            .UbicationE{
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #aboutUs{
+            width: 100%;
+            font-size: 2vw;
+            .aboutUsc{
+                margin: 20px;
+                
+                .informationAboutUs{
+                    
+                    .whoAre{
+                        
+                        
+                        font-family: 'Mingzat', sans-serif;
+                        .whoAreA{
+                        
+                            .descriptionAboutUs{
+                            }
+                        }
+                        .whoAreB{
+                            -webkit-box-flex: 2;
+                            text-align: justify;
+                            
+                            column-fill: balance;
+                            
+                        }
+                    }
+                }
+                .whereAre{
+                    .ubicationAre{
+                        justify-content: space-evenly;
+                        font-family: 'Mingzat', sans-serif;
+                        .OurUbication{
+                            .UbicationA{
+                                font-size: 2.813rem;
+                                color: #343434;
+                                line-height: 3rem;
+                                font-weight: 300px;
+                                font-family: 'Mingzat', sans-serif;
+                            }
+                        }
+                        .OurUbicationNac{
+                            background: #9546b1;
+                            
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 2.3rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationB{
+        
+                            }
+                        }
+                        .OurUbicationInt{
+                            background: #2dbcb6;
+                        
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 2.3rem;
+                            padding-top: 64px;
+                            padding: 48px;
+                            margin-left: 2px;
+                            color: white;
+                            .UbicationD{
+        
+                            }
+                            .UbicationE{
+        
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}

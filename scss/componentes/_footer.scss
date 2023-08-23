@@ -1,0 +1,1148 @@
+/* este es es footer*/
+@media (max-width: 480px){
+    .homeCentral {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #footerHome {
+            border-top: 1px solid chocolate;
+            margin: 5px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 95vw;
+            
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 30px;
+                gap: 20px;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                
+                .suscribe {
+                    margin-right: 10px;
+                    padding-top: 5px;
+                    font-family: "Inter", sans-serif;
+                    margin-left: 20px;
+                    width: 100%;
+                    
+                    p {
+                        font-weight: 600;
+                    }
+                }
+                
+                .formSub {
+                    width: 100%;
+                    form{
+
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        
+                        
+                        .emailClib {
+                            height: 30px;
+                            text-align: center;
+                        }
+                        
+                        #emailCliente {
+                            
+                        }
+                        
+                        
+                        .button.emailClib {
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                        
+                        .botton1 {
+                            color: white;
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                            
+                    }
+                
+                }
+            }
+            
+            .sectionFooter {
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Inter', sans-serif;
+                flex-direction: column;
+                .informationEntrepise {
+                    padding-top: 7px;
+                    padding-bottom: 10px;                    
+                    .logoFooter {
+                        padding-bottom: 10px;
+                        text-align: center;
+                    
+                    }
+                    
+                    .informationEnterpise {
+                        text-align: center;                       
+                        .infEnter {
+                            padding-top: 10px;
+                            font-family: 'Mulish', sans-serif;
+                            margin-bottom: 0px;
+                            color: #7d7d7d;
+                        }
+                    }
+                }
+                
+                .socialMediaContact {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    text-align: center;
+                    
+                    .socialMediaContactS {
+                        display: flex;
+                        justify-items: center;
+                        flex-direction: column;
+                        width: 100%;
+                        
+                        .socialSubicon {
+                            height: 30px;
+                            width: 30px;
+                            align-items: center;
+                        }
+                        
+                        .informationBus {
+                            padding-top: 8px;
+                            padding-left: 4px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .itemsCaregory{
+                    display: flex;
+                    flex-direction: column;
+
+                    .categories {
+                        padding-top: 30px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .accountCustomer {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .informationCompany {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    } 
+                }
+                    .textFooter {
+                        
+                    }
+                
+            }
+            
+            .socialMedia {
+                padding-top: 10px;
+                
+                div {
+                    padding-top: 15px;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: 'Mulish', sans-serif;
+                    
+                    p {
+                        margin-bottom: 5px;
+                    }
+                } 
+                
+                .socialMediaA {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-top: 0px;
+                    
+                    .socialIcon {
+                        height: 30px;
+                    }
+                }
+            }
+            
+            .footerCopyrigth {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid grey;
+                flex-direction: column;
+                
+                .copyFooter {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                
+                .footerImagePayment {
+                    padding-top: 10px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #footerHome {
+            border-top: 1px solid chocolate;
+            margin: 5px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 95vw;
+            
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 30px;
+                gap: 20px;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                
+                .suscribe {
+                    margin-right: 10px;
+                    padding-top: 5px;
+                    font-family: "Inter", sans-serif;
+                    margin-left: 20px;
+                    width: 100%;
+                    
+                    p {
+                        font-weight: 600;
+                    }
+                }
+                
+                .formSub {
+                    width: 100%;
+                    form{
+                        display: flex;
+                        gap: 5px;
+                        .emailClib {
+                            height: 30px;
+                            text-align: center;
+                        }
+                        
+                        #emailCliente {
+                            width: 100%;
+                            
+                        }
+                        
+                        
+                        .button.emailClib {
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                        
+                        .botton1 {
+                            color: white;
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                            
+                    }
+                
+                }
+            }
+            
+            .sectionFooter {
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Inter', sans-serif;
+                flex-direction: column;
+                .informationEntrepise {
+                    padding-top: 7px;
+                    padding-bottom: 10px;                    
+                    .logoFooter {
+                        padding-bottom: 10px;
+                        text-align: center;
+                    
+                    }
+                    
+                    .informationEnterpise {
+                        text-align: center;                       
+                        .infEnter {
+                            padding-top: 10px;
+                            font-family: 'Mulish', sans-serif;
+                            margin-bottom: 0px;
+                            color: #7d7d7d;
+                        }
+                    }
+                }
+                
+                .socialMediaContact {
+                    display: flex;
+                    gap: 10px;
+                    text-align: center;
+                    
+                    .socialMediaContactS {
+                        display: flex;
+                        justify-items: center;
+                        flex-direction: column;
+                        width: 100%;
+                        
+                        .socialSubicon {
+                            height: 30px;
+                            width: 30px;
+                            align-items: center;
+                        }
+                        
+                        .informationBus {
+                            padding-top: 8px;
+                            padding-left: 4px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .itemsCaregory{
+                    display: flex;
+                    
+                    .categories {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .accountCustomer {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .informationCompany {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    } 
+                }
+                .itemsCaregory div:nth-child(-n+2){
+                    flex: 1;
+                }
+                
+                    .textFooter {
+                        
+                    }
+                
+            }
+            
+            .socialMedia {
+                padding-top: 10px;
+                
+                div {
+                    padding-top: 15px;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: 'Mulish', sans-serif;
+                    
+                    p {
+                        margin-bottom: 5px;
+                    }
+                } 
+                
+                .socialMediaA {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-top: 0px;
+                    
+                    .socialIcon {
+                        height: 30px;
+                    }
+                }
+            }
+            
+            .footerCopyrigth {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid grey;
+                
+                
+                .copyFooter {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                
+                .footerImagePayment {
+                    padding-top: 10px;
+                    img{
+                        width: 30vw;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #footerHome {
+            border-top: 1px solid chocolate;
+            margin: 5px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 95vw;
+            
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                gap: 20px;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                .suscribe {
+                    margin-right: 10px;
+                    padding-top: 5px;
+                    font-family: "Inter", sans-serif;
+                    margin-left: 20px;
+                    width: 100%;
+                    
+                    p {
+                        font-weight: 600;
+                    }
+                }
+                
+                .formSub {
+                    width: 100%;
+                    form{
+                        display: flex;
+                        gap: 5px;
+                        .emailClib {
+                            height: 30px;
+                            text-align: center;
+                        }
+                        
+                        #emailCliente {
+                            width: 100%;
+                            
+                        }
+                        
+                        
+                        .button.emailClib {
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                        
+                        .botton1 {
+                            color: white;
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                            
+                    }
+                
+                }
+            }
+            
+            .sectionFooter {
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Inter', sans-serif;
+                flex-direction: column;
+                padding-top: 30px;
+                .informationEntrepise {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 7px;
+                    padding-bottom: 10px;                    
+                    .logoFooter {
+                        padding-bottom: 10px;
+                        text-align: center;
+                        img{
+                            width: 13vw;
+                        }
+                    
+                    }
+                    
+                    .informationEnterpise {
+                        text-align: center; 
+                        font-size: 2.2vw;                      
+                        .infEnter {
+                            padding-top: 10px;
+                            font-family: 'Mulish', sans-serif;
+                            margin-bottom: 0px;
+                            color: #7d7d7d;
+                        }
+                    }
+                }                
+                .socialMediaContact {
+                    display: flex;
+                    gap: 10px;
+                    text-align: center;
+                    align-items: center;
+                    
+                    .socialMediaContactS {
+                        display: flex;
+                        justify-items: center;
+                        flex-direction: column;
+                        width: 100%;
+                        
+                        .socialSubicon {
+                            width: 60px;
+                            height: 60px;
+                        }
+                        
+                        .informationBus {
+                            padding-top: 8px;
+                            padding-left: 4px;
+                            width: 100%;
+                            font-size: 2vw;
+                        }
+                    }
+                }
+                .itemsCaregory{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    padding-top: 30px;
+                    font-size: 2vw;
+                    
+                    .categories {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .accountCustomer {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .informationCompany {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    } 
+                }
+                .itemsCaregory div:nth-child(-n+2){
+                    flex: 1;
+                }
+                
+                    .textFooter {
+                        
+                    }
+                
+            }
+            
+            .socialMedia {
+                padding-top: 10px;
+                
+                div {
+                    padding-top: 15px;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: 'Mulish', sans-serif;
+                    
+                    p {
+                        margin-bottom: 5px;
+                    }
+                } 
+                
+                .socialMediaA {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-top: 0px;
+                    
+                    .socialIcon {
+                        height: 30px;
+                    }
+                }
+            }
+            
+            .footerCopyrigth {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid grey;
+                
+                
+                .copyFooter {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                
+                .footerImagePayment {
+                    padding-top: 10px;
+                    img{
+                        width: 20vw;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (min-width: 1025px){
+    .homeCentral {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #footerHome {
+            border-top: 1px solid chocolate;
+            margin: 5px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 95vw;
+            
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                gap: 20px;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                .suscribe {
+                    margin-right: 10px;
+                    padding-top: 5px;
+                    font-family: "Inter", sans-serif;
+                    margin-left: 20px;
+                    width: 100%;
+                    font-size: 2vw;
+                    
+                    p {
+                        font-weight: 600;
+                    }
+                }
+                
+                .formSub {
+                    width: 100%;
+                    form{
+                        display: flex;
+                        gap: 5px;
+                        .emailClib {
+                            height: 30px;
+                            text-align: center;
+                        }
+                        
+                        #emailCliente {
+                            width: 100%;
+                            
+                        }
+                        
+                        
+                        .button.emailClib {
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                        
+                        .botton1 {
+                            color: white;
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                            
+                    }
+                
+                }
+            }
+            
+            .sectionFooter {
+                display: flex;
+                justify-content: space-around;
+                font-family: 'Inter', sans-serif;
+        
+                .informationEntrepise {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 7px;
+                    padding-bottom: 10px;   
+                    align-items: center;                 
+                    .logoFooter {
+                        padding-bottom: 10px;
+                        text-align: center;
+                        margin-right: 50px;
+                        img{
+                            width: 8vw;
+                        }
+                    
+                    }
+                    
+                    .informationEnterpise {
+                        text-align: center; 
+                        font-size: 1.4vw;  
+                        margin-right: 50px;                    
+                        .infEnter {
+                            padding-top: 10px;
+                            font-family: 'Mulish', sans-serif;
+                            margin-bottom: 0px;
+                            color: #7d7d7d;
+                        }
+                    }
+                    .socialMediaContact {
+                        display: flex;
+                        gap: 10px;
+                        text-align: center;
+                        align-items: center;
+                        flex-direction: column;
+                        
+                        .socialMediaContactS {
+                            display: flex;
+                            justify-items: center;
+                            flex-direction: column;
+                            width: 100%;
+                            
+                            .socialSubicon {
+                                height: 60px;
+                                width: 60px;
+                                align-items: center;
+                            }
+                            
+                            .informationBus {
+                                padding-top: 8px;
+                                padding-left: 4px;
+                                width: 100%;
+                                font-size: 1.4vw;
+                            }
+                        }
+                    }
+                }                
+                
+                .itemsCaregory{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    padding-top: 30px;
+                    
+                    .categories {
+                        padding-top: 10px;
+                        text-align: center;
+                        font-size: 1.4vw;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .accountCustomer {
+                        padding-top: 10px;
+                        text-align: center;
+                        font-size: 1.4vw;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .informationCompany {
+                        padding-top: 10px;
+                        text-align: center;
+                        font-size: 1.4vw;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    } 
+                }
+                .itemsCaregory div:nth-child(-n+2){
+                    flex: 1;
+                }
+                
+                    .textFooter {
+                        
+                    }   
+            }
+            .socialMedia {
+                padding-top: 10px;
+                display: flex;
+                align-items: baseline;
+                text-align: center;
+                justify-content: center;
+                
+                div {
+                    padding-top: 15px;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: 'Mulish', sans-serif;
+                    
+                    p {
+                        margin-bottom: 5px;
+                    }
+                } 
+                
+                .socialMediaA {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-top: 0px;
+                    
+                    .socialIcon {
+                        height: 30px;
+                    }
+                }
+            }
+            
+            .footerCopyrigth {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid grey;
+                
+                
+                .copyFooter {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                
+                .footerImagePayment {
+                    padding-top: 10px;
+                    img{
+                        width: 20vw;
+                    }
+                }
+            }
+        }
+    } 
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+
+@font-face {
+    font-family: Muli-titulos;
+    src: url('tipografia/Muli-Semi-BoldItalic.ttf');
+}
+
+@import'../scss/base/listas';
+@import'../scss/base/variables';
+@import'../scss/componentes/footer';
+@import'../scss/componentes/header';
+@import'../scss/componentes/main';
+@import'../scss/componentes/termycond';
+@import'../scss/componentes/acercanost';
+@import'../scss/componentes/contac';
+@import'../scss/componentes/paiment';
+@import'../scss/componentes/spedido.scss';
+@import'../scss/componentes/menuclient';
+@import'../scss/componentes/prdhombre';
+@import'../scss/componentes/carrito'
+
+
+
+

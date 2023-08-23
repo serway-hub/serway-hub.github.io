@@ -1,0 +1,76 @@
+@media (max-width: 480px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #terminosCondiciones{
+            padding: 1rem;
+            font-size: 3.5vw;
+            font-family: 'Mingzat', sans-serif;
+            text-align: justify;
+            .tienda{
+                display: none;
+            }
+           
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #terminosCondiciones{
+            padding: 1rem;
+            font-size: 3.5vw;
+            font-family: 'Mingzat', sans-serif;
+            text-align: justify;
+            .tienda{
+                display: none;
+            }
+           
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #terminosCondiciones{
+            padding: 1rem;
+            font-size: 3.5vw;
+            font-family: 'Mingzat', sans-serif;
+            text-align: justify;
+            .tienda{
+                display: none;
+            }
+           
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #terminosCondiciones{
+            padding: 2rem;
+            font-size: 1.5vw;
+            font-family: 'Mingzat', sans-serif;
+            text-align: justify;
+            .tienda{
+                display: none;
+            }
+           
+        }
+    }  
+}
